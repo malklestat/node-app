@@ -23,7 +23,7 @@ module.exports = {
       host : '52.45.30.30',
       ref  : 'origin/master',
       repo : 'https://github.com/malklestat/node-app',
-      path : '/home/ricardo/meuapp',
+      path : '/var/www/meuapp',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
