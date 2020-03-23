@@ -19,7 +19,7 @@ module.exports = {
 
   deploy : {
     production : {
-      user : 'ubuntu',
+      user : 'admin',
       host : '52.45.30.30',
       ref  : 'origin/master',
       repo : 'https://github.com/malklestat/node-app',
