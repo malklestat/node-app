@@ -24,7 +24,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/malklestat/node-app',
       path : '/var/www/meuapp',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'npm install && pm2 start index.ls && pm2 reload ecosystem.config.js --env production'
     }
   }
 };
